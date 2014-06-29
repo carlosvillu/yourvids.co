@@ -1,0 +1,54 @@
+.grid {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 3;
+   -webkit-column-gap:   5px;
+   -moz-column-count:    3;
+   -moz-column-gap:      5px;
+   column-count:         3;
+   column-gap:           5px;
+   
+}
+  .grid .responsive {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+  }
+
+/**
+ * Video youtube responsive
+ * http://avexdesigns.com/responsive-youtube-embed/
+ * */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+/**
+ * Responsive images
+ * http://demosthenes.info/blog/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design
+ * */
+.responsive{
+  max-width:100%;
+  height:auto;
+}
+
+
+/**
+ * ICONS
+ * */
+i[class*=" ion-"]{ font-size: 1.5em; }
+
